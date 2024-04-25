@@ -1,0 +1,100 @@
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: #424242;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+address {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 288px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  background-color: #e43071;
+}
+
+.header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 1.1;
+  text-align: center;
+  color: #fff;
+}
+
+.header-logo span {
+  color: #ffc1d8;
+}
+
+.header-list {
+  display: none;
+}
+
+.search-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.header-search-title {
+  display: none;
+}
+
+.header-btn {
+  display: none;
+}
+
+.header-search {
+  margin-right: 20px;
+}
+
+.header-menu {
+  fill: #fff;
+}
+
+/* hero */
+
+.hero {
+  padding-top: 103px;
+  padding-bottom: 150px;
+  background-image: url(../images/bg/heroBG-mob-1x.jpeg);
+}
