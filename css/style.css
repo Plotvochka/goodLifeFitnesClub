@@ -62,7 +62,7 @@ img {
   color: #fff;
 }
 
-.header-logo span {
+.life-color {
   color: #ffc1d8;
 }
 
@@ -85,10 +85,23 @@ img {
 
 .header-search {
   margin-right: 20px;
+  fill: #fff;
+  stroke: #fff;
+}
+
+.header-search:hover,
+.header-search:focus {
+  fill: grey;
+  stroke: grey;
 }
 
 .header-menu {
   fill: #fff;
+}
+
+.header-menu:hover,
+.header-menu:focus {
+  fill: grey;
 }
 
 /* hero */
@@ -97,4 +110,47 @@ img {
   padding-top: 103px;
   padding-bottom: 150px;
   background-image: url(../images/bg/heroBG-mob-1x.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.1;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 23px;
+}
+
+.hero-btn {
+  border-radius: 38px;
+  width: 208px;
+  height: 56px;
+  background-color: #e43071;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 2.3;
+  text-align: center;
+  color: #fff;
+}
+
+.header-slider {
+  position: absolute;
+  bottom: 0;
+}
+
+/* .header-path2 {
+  position: absolute;
+  bottom: 0;
+} */
